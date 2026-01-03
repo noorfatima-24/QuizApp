@@ -361,6 +361,7 @@ export default function QuizApp() {
         <Text style={styles.title}>Quiz Completed!</Text>
         <Text style={styles.score}>
           Your Score: {score} / {quizData.length}
+          hy i am noor
         </Text>
         <TouchableOpacity style={styles.restartButton} onPress={restartQuiz}>
           <Text style={styles.restartButtonText}>Restart Quiz</Text>
